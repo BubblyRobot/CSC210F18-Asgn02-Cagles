@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Scrapbook</string>
+    <string name="maldivesAgain">Maldives</string>
+    <string name="big_ben">Big Ben</string>
+    <string name="giza_egypt">Giza Egypt</string>
+    <string name="big_ben_image">Big Ben Image</string>
+    <string name="giza">giza</string>
+    <string name="maldives">Maldives</string>
+
+</resources>

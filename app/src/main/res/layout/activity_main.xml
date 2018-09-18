@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/MaldivesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maldives"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/MaldivesImage"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:contentDescription="@string/maldives"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/maldives" />
+
+        <TextView
+            android:id="@+id/BigBenText"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/big_ben"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/BigBenImage"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:contentDescription="@string/big_ben_image"
+            app:srcCompat="@drawable/bigbenlondon" />
+
+        <TextView
+            android:id="@+id/GizaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/giza_egypt"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/GizaEgyptImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/giza"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/gizaegypt" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
